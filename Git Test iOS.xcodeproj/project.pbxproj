@@ -21,6 +21,7 @@
 		52C03E40194B445B0094D6C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C03E22194B445B0094D6C3 /* UIKit.framework */; };
 		52C03E48194B445B0094D6C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52C03E46194B445B0094D6C3 /* InfoPlist.strings */; };
 		52C03E4A194B445B0094D6C3 /* Git_Test_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C03E49194B445B0094D6C3 /* Git_Test_iOSTests.m */; };
+		52C03E55194B49960094D6C3 /* LStest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C03E54194B49960094D6C3 /* LStest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		52C03E45194B445B0094D6C3 /* Git Test iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git Test iOSTests-Info.plist"; sourceTree = "<group>"; };
 		52C03E47194B445B0094D6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52C03E49194B445B0094D6C3 /* Git_Test_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_Test_iOSTests.m; sourceTree = "<group>"; };
+		52C03E53194B49960094D6C3 /* LStest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LStest.h; sourceTree = "<group>"; };
+		52C03E54194B49960094D6C3 /* LStest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LStest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		52C03E12194B445B0094D6C3 = {
 			isa = PBXGroup;
 			children = (
+				52C03E53194B49960094D6C3 /* LStest.h */,
+				52C03E54194B49960094D6C3 /* LStest.m */,
 				52C03E24194B445B0094D6C3 /* Git Test iOS */,
 				52C03E43194B445B0094D6C3 /* Git Test iOSTests */,
 				52C03E1D194B445B0094D6C3 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				52C03E2B194B445B0094D6C3 /* main.m in Sources */,
 				52C03E2F194B445B0094D6C3 /* LSAppDelegate.m in Sources */,
+				52C03E55194B49960094D6C3 /* LStest.m in Sources */,
 				52C03E35194B445B0094D6C3 /* LSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
